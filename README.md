@@ -1,4 +1,4 @@
-# Capsular Contracture Detection Model
+# Capsular Contracture Classification Model
 
 ## Introduction
 Capsular contracture is a condition that can happen after breast implant surgery. It occurs when scar tissue around the implant becomes hard and tight. This can cause pain, discomfort, or changes in how the breast looks or feels. Early detection of this problem can help doctors treat it faster and avoid complications.
