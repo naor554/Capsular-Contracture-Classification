@@ -5,6 +5,7 @@ Capsular contracture is a condition that can happen after breast implant surgery
 
 ![Removed_Breast_Implant_ _Capsular_Contracture_Tissue webp](https://github.com/user-attachments/assets/4e7dcd2e-59af-4e24-bf2d-aede74e20848)
 
+Image taken after a capsular contracture scar tissue removal surgery, showing the removed implant and removed tissue capsule
 
 ## Problem
 Doctors usually look at 3D medical images, like MRI scans, to find signs of capsular contracture. However, analyzing these images takes time and can sometimes lead to mistakes. This project aims to use a machine learning model to help identify this condition quickly and accurately.
