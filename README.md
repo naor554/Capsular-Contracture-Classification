@@ -3,6 +3,9 @@
 ## Introduction
 Capsular contracture is a condition that can happen after breast implant surgery. It occurs when scar tissue around the implant becomes hard and tight. This can cause pain, discomfort, or changes in how the breast looks or feels. Early detection of this problem can help doctors treat it faster and avoid complications.
 
+![Removed_Breast_Implant_ _Capsular_Contracture_Tissue webp](https://github.com/user-attachments/assets/4e7dcd2e-59af-4e24-bf2d-aede74e20848)
+
+
 ## Problem
 Doctors usually look at 3D medical images, like MRI scans, to find signs of capsular contracture. However, analyzing these images takes time and can sometimes lead to mistakes. This project aims to use a machine learning model to help identify this condition quickly and accurately.
 
