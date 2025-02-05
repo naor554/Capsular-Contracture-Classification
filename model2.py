@@ -182,14 +182,23 @@ print(f"Recall:      {recall:.4f}")
 print(f"F1-Score:    {f1:.4f}")
 print(f"ROC-AUC:     {roc_auc:.4f}")
 
-# Plot training and validation loss for each fold
+# Plot training loss for each fold
 plt.figure(figsize=(10, 6))
 for i in range(k):
-    plt.plot(range(1, num_epochs + 1), fold_train_losses[i], linestyle='--', label=f"Fold {i + 1} Train Loss")
-    plt.plot(range(1, num_epochs + 1), fold_val_losses[i], label=f"Fold {i + 1} Val Loss")
+    plt.plot(range(1, num_epochs + 1), fold_train_losses[i], linestyle='--', label=f"Fold {i + 1}")
 plt.xlabel("Epochs")
-plt.ylabel("Loss")
-plt.title("Train and Validation Loss per Fold")
+plt.ylabel("Train Loss")
+plt.title("Train Loss per Fold")
+plt.legend()
+plt.show()
+
+# Plot validation loss for each fold
+plt.figure(figsize=(10, 6))
+for i in range(k):
+    plt.plot(range(1, num_epochs + 1), fold_val_losses[i], label=f"Fold {i + 1}")
+plt.xlabel("Epochs")
+plt.ylabel("Validation Loss")
+plt.title("Validation Loss per Fold")
 plt.legend()
 plt.show()
 
